@@ -15,7 +15,7 @@ async def bot_start(message: types.Message,state:FSMContext):
 @dp.message_handler(text='𝓝𝓘𝓚 𝓨𝓐𝓡𝓐𝓣𝓘𝓢𝓗')
 async def bot_start(message: types.Message):
     keyborad_in=InlineKeyboardMarkup(row_width=4)
-    demo=beautify_nickname('Bekzod')
+    demo=beautify_nickname('Demo')
     number=0
     key=0
     line=1
